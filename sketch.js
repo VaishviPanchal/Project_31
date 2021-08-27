@@ -42,7 +42,8 @@ function setup() {
   }
 
   //create particle objects
-  
+
+}
 
 function draw() {
   background("black");
@@ -61,14 +62,14 @@ function draw() {
     divisions[k].display();
   }
 
-  /*display the paricles 
+  //display the paricles 
   for (var p = 0; p < particles.length; p++){
     particles[p].display();
   }
 
   if(frameCount%60 === 0) {
     particles.push(new Particle(random(0,800),0));
-  }*/
+  }
     
-}
+
 }
